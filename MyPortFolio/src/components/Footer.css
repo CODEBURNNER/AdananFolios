@@ -1,0 +1,50 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .footer-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-icons a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-icons a:hover {
+    color: rgb(139, 139, 139); /* Change this to your preferred hover color */
+  }
+
+  /* .footer-icons whatsapp a:hover {
+    color: #1db954;
+  }
+
+  .footer-icons insta a:hover{
+    color: #8f3699;
+  }
+
+  .footer-icons github a:hover{
+    color: grey;
+  }
+  .footer-icons linkedin a:hover{
+    color:#0073b1;
+  } */
+
+  @media (max-width: 768px){
+    
+  }

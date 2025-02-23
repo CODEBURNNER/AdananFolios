@@ -1,0 +1,52 @@
+/* src/components/ProjectItem.css */
+
+.project-item {
+    width: 400px;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .project-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .project-button:hover {
+    background-color: #575757;
+  }
+
+  /* div img{
+    size: 20px;
+  }
+   */

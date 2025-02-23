@@ -1,0 +1,82 @@
+/* src/App.css */
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans-desc {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.raleway-desc {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.playwrite-ar-desc {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  margin-left: 200px; /* Default margin for when the navbar is visible */
+  transition: margin-left 0.3s ease;
+}
+
+.content.full-width {
+  margin-left: 0; /* Full width when the navbar is hidden */
+}
+
+.hamburger {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+section {
+  padding: 20px;
+  color: white;
+}
+
+.home-section, .about-section, .skills-section, .hireme-section {
+  background-color: #111;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .hamburger{
+    display: none;
+  }
+}
+

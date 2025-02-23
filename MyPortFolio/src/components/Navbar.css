@@ -1,0 +1,68 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Hide the navbar initially */
+  width: 200px;
+  height: 100vh;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  padding: 20px 0; /* Add padding to avoid edge clinging */
+  transition: left 0.3s ease; /* Smooth transition */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.navbar.open {
+  left: 0; /* Show the navbar when open */
+}
+
+.profile-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Space between the profile image and the links */
+  margin-top: 60px; /* Add space from the top (hamburger icon) */
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Make the image circular */
+  /* border: 2px solid white;  Add a white border */
+  padding: 5px;
+  background-color: white; /* Add a background color #444 for decoration */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Ensure links take full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the links */
+  flex: 1; /* Take up remaining space */
+  margin-top: 20px; /* Additional space between profile image and links */
+}
+
+.nav-links li {
+  margin: 20px 0; /* Add space between each link */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* CSS file or inside a style tag */
+
+
+
+
+
