@@ -19,7 +19,7 @@ import CarousalImg3 from './assets/carousalImg3.png';
 import CarousalImg4 from './assets/carousalImg4.png';
 import CarousalImg5 from './assets/carousalImg5.png';
 import CarousalImg6 from './assets/carousalImg6.png';
-import Resume from './assets/Resume.pdf';
+import Resume from './assets/Adanan_Resume.pdf';
 import profile from './assets/profile.png';
 import reactIcon from '/src/assets/icons/react.png';
 import nodeIcon from '/src/assets/icons/node.png';
